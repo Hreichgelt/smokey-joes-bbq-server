@@ -1,0 +1,35 @@
+{
+  "name": "smokey-joes-bbq-server",
+  "version": "1.0.0",
+  "description": "Smokey Joes BBQ Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeders/seed.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hreichgelt/smokey-joes-bbq-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hreichgelt/smokey-joes-bbq-server/issues"
+  },
+  "homepage": "https://github.com/Hreichgelt/smokey-joes-bbq-server#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.12.0",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "stripe": "^11.15.0"
+  }
+}
